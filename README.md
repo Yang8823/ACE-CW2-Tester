@@ -10,7 +10,7 @@
 2. First go to the `WalkTest` class in `WalkTest.java`.
 ![Alt text](images/image-1.png)
 3. Next press the green arrow.
-![Alt text](176cdcd1236ffc3650229a0309b754e.jpg)
+![Alt text](images/176cdcd1236ffc3650229a0309b754e.jpg)
 4. Press the first one `Run 'WalkTest.testMainMet...'` and the tester should work. 
 ![Alt text](images/image-5.png)
 5. After the first next, you can just run it normally.
