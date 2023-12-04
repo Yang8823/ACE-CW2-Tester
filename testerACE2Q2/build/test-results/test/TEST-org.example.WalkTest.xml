@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.WalkTest" tests="100" skipped="0" failures="0" errors="0" timestamp="2023-12-04T15:32:23" hostname="YANG" time="4.019">
+  <properties/>
+  <testcase name="Run 1 of 100" classname="org.example.WalkTest" time="0.051"/>
+  <testcase name="Run 2 of 100" classname="org.example.WalkTest" time="0.008"/>
+  <testcase name="Run 3 of 100" classname="org.example.WalkTest" time="0.006"/>
+  <testcase name="Run 4 of 100" classname="org.example.WalkTest" time="0.008"/>
+  <testcase name="Run 5 of 100" classname="org.example.WalkTest" time="0.005"/>
+  <testcase name="Run 6 of 100" classname="org.example.WalkTest" time="0.005"/>
+  <testcase name="Run 7 of 100" classname="org.example.WalkTest" time="0.007"/>
+  <testcase name="Run 8 of 100" classname="org.example.WalkTest" time="0.007"/>
+  <testcase name="Run 9 of 100" classname="org.example.WalkTest" time="0.007"/>
+  <testcase name="Run 10 of 100" classname="org.example.WalkTest" time="0.005"/>
+  <testcase name="Run 11 of 100" classname="org.example.WalkTest" time="0.007"/>
+  <testcase name="Run 12 of 100" classname="org.example.WalkTest" time="0.006"/>
+  <testcase name="Run 13 of 100" classname="org.example.WalkTest" time="0.008"/>
+  <testcase name="Run 14 of 100" classname="org.example.WalkTest" time="0.008"/>
+  <testcase name="Run 15 of 100" classname="org.example.WalkTest" time="0.006"/>
+  <testcase name="Run 16 of 100" classname="org.example.WalkTest" time="0.007"/>
+  <testcase name="Run 17 of 100" classname="org.example.WalkTest" time="0.007"/>
+  <testcase name="Run 18 of 100" classname="org.example.WalkTest" time="0.007"/>
+  <testcase name="Run 19 of 100" classname="org.example.WalkTest" time="0.008"/>
+  <testcase name="Run 20 of 100" classname="org.example.WalkTest" time="0.008"/>
+  <testcase name="Run 21 of 100" classname="org.example.WalkTest" time="0.014"/>
+  <testcase name="Run 22 of 100" classname="org.example.WalkTest" time="0.01"/>
+  <testcase name="Run 23 of 100" classname="org.example.WalkTest" time="0.008"/>
+  <testcase name="Run 24 of 100" classname="org.example.WalkTest" time="0.007"/>
+  <testcase name="Run 25 of 100" classname="org.example.WalkTest" time="0.016"/>
+  <testcase name="Run 26 of 100" classname="org.example.WalkTest" time="0.009"/>
+  <testcase name="Run 27 of 100" classname="org.example.WalkTest" time="0.012"/>
+  <testcase name="Run 28 of 100" classname="org.example.WalkTest" time="0.009"/>
+  <testcase name="Run 29 of 100" classname="org.example.WalkTest" time="0.012"/>
+  <testcase name="Run 30 of 100" classname="org.example.WalkTest" time="0.012"/>
+  <testcase name="Run 31 of 100" classname="org.example.WalkTest" time="0.017"/>
+  <testcase name="Run 32 of 100" classname="org.example.WalkTest" time="0.018"/>
+  <testcase name="Run 33 of 100" classname="org.example.WalkTest" time="0.012"/>
+  <testcase name="Run 34 of 100" classname="org.example.WalkTest" time="0.01"/>
+  <testcase name="Run 35 of 100" classname="org.example.WalkTest" time="0.013"/>
+  <testcase name="Run 36 of 100" classname="org.example.WalkTest" time="0.016"/>
+  <testcase name="Run 37 of 100" classname="org.example.WalkTest" time="0.019"/>
+  <testcase name="Run 38 of 100" classname="org.example.WalkTest" time="0.007"/>
+  <testcase name="Run 39 of 100" classname="org.example.WalkTest" time="0.019"/>
+  <testcase name="Run 40 of 100" classname="org.example.WalkTest" time="0.024"/>
+  <testcase name="Run 41 of 100" classname="org.example.WalkTest" time="0.023"/>
+  <testcase name="Run 42 of 100" classname="org.example.WalkTest" time="0.02"/>
+  <testcase name="Run 43 of 100" classname="org.example.WalkTest" time="0.025"/>
+  <testcase name="Run 44 of 100" classname="org.example.WalkTest" time="0.018"/>
+  <testcase name="Run 45 of 100" classname="org.example.WalkTest" time="0.018"/>
+  <testcase name="Run 46 of 100" classname="org.example.WalkTest" time="0.021"/>
+  <testcase name="Run 47 of 100" classname="org.example.WalkTest" time="0.018"/>
+  <testcase name="Run 48 of 100" classname="org.example.WalkTest" time="0.019"/>
+  <testcase name="Run 49 of 100" classname="org.example.WalkTest" time="0.018"/>
+  <testcase name="Run 50 of 100" classname="org.example.WalkTest" time="0.018"/>
+  <testcase name="Run 51 of 100" classname="org.example.WalkTest" time="0.021"/>
+  <testcase name="Run 52 of 100" classname="org.example.WalkTest" time="0.017"/>
+  <testcase name="Run 53 of 100" classname="org.example.WalkTest" time="0.028"/>
+  <testcase name="Run 54 of 100" classname="org.example.WalkTest" time="0.02"/>
+  <testcase name="Run 55 of 100" classname="org.example.WalkTest" time="0.018"/>
+  <testcase name="Run 56 of 100" classname="org.example.WalkTest" time="0.02"/>
+  <testcase name="Run 57 of 100" classname="org.example.WalkTest" time="0.021"/>
+  <testcase name="Run 58 of 100" classname="org.example.WalkTest" time="0.012"/>
+  <testcase name="Run 59 of 100" classname="org.example.WalkTest" time="0.037"/>
+  <testcase name="Run 60 of 100" classname="org.example.WalkTest" time="0.041"/>
+  <testcase name="Run 61 of 100" classname="org.example.WalkTest" time="0.043"/>
+  <testcase name="Run 62 of 100" classname="org.example.WalkTest" time="0.035"/>
+  <testcase name="Run 63 of 100" classname="org.example.WalkTest" time="0.039"/>
+  <testcase name="Run 64 of 100" classname="org.example.WalkTest" time="0.025"/>
+  <testcase name="Run 65 of 100" classname="org.example.WalkTest" time="0.041"/>
+  <testcase name="Run 66 of 100" classname="org.example.WalkTest" time="0.028"/>
+  <testcase name="Run 67 of 100" classname="org.example.WalkTest" time="0.053"/>
+  <testcase name="Run 68 of 100" classname="org.example.WalkTest" time="0.03"/>
+  <testcase name="Run 69 of 100" classname="org.example.WalkTest" time="0.033"/>
+  <testcase name="Run 70 of 100" classname="org.example.WalkTest" time="0.022"/>
+  <testcase name="Run 71 of 100" classname="org.example.WalkTest" time="0.052"/>
+  <testcase name="Run 72 of 100" classname="org.example.WalkTest" time="0.045"/>
+  <testcase name="Run 73 of 100" classname="org.example.WalkTest" time="0.059"/>
+  <testcase name="Run 74 of 100" classname="org.example.WalkTest" time="0.018"/>
+  <testcase name="Run 75 of 100" classname="org.example.WalkTest" time="0.053"/>
+  <testcase name="Run 76 of 100" classname="org.example.WalkTest" time="0.035"/>
+  <testcase name="Run 77 of 100" classname="org.example.WalkTest" time="0.055"/>
+  <testcase name="Run 78 of 100" classname="org.example.WalkTest" time="0.102"/>
+  <testcase name="Run 79 of 100" classname="org.example.WalkTest" time="0.085"/>
+  <testcase name="Run 80 of 100" classname="org.example.WalkTest" time="0.11"/>
+  <testcase name="Run 81 of 100" classname="org.example.WalkTest" time="0.084"/>
+  <testcase name="Run 82 of 100" classname="org.example.WalkTest" time="0.096"/>
+  <testcase name="Run 83 of 100" classname="org.example.WalkTest" time="0.087"/>
+  <testcase name="Run 84 of 100" classname="org.example.WalkTest" time="0.093"/>
+  <testcase name="Run 85 of 100" classname="org.example.WalkTest" time="0.106"/>
+  <testcase name="Run 86 of 100" classname="org.example.WalkTest" time="0.105"/>
+  <testcase name="Run 87 of 100" classname="org.example.WalkTest" time="0.094"/>
+  <testcase name="Run 88 of 100" classname="org.example.WalkTest" time="0.105"/>
+  <testcase name="Run 89 of 100" classname="org.example.WalkTest" time="0.09"/>
+  <testcase name="Run 90 of 100" classname="org.example.WalkTest" time="0.023"/>
+  <testcase name="Run 91 of 100" classname="org.example.WalkTest" time="0.143"/>
+  <testcase name="Run 92 of 100" classname="org.example.WalkTest" time="0.048"/>
+  <testcase name="Run 93 of 100" classname="org.example.WalkTest" time="0.099"/>
+  <testcase name="Run 94 of 100" classname="org.example.WalkTest" time="0.03"/>
+  <testcase name="Run 95 of 100" classname="org.example.WalkTest" time="0.126"/>
+  <testcase name="Run 96 of 100" classname="org.example.WalkTest" time="0.155"/>
+  <testcase name="Run 97 of 100" classname="org.example.WalkTest" time="0.142"/>
+  <testcase name="Run 98 of 100" classname="org.example.WalkTest" time="0.138"/>
+  <testcase name="Run 99 of 100" classname="org.example.WalkTest" time="0.106"/>
+  <testcase name="Run 100 of 100" classname="org.example.WalkTest" time="0.15"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 1?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 9 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 4 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 1?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 1?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 3 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 2 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 3?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 1?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 1?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 1 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 2 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 4?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 4 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 1 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 5?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 2 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 2 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 6?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 2 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 1 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 7?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 2 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 2 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 8?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 4?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 4?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 3 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 2 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 9?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 12?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 12?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 2 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 2 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 10?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 2 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 1 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 11?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 4 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 1 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 12?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 2 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 2 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 13?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 6 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 1 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 14?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 3 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 2 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 15?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 3 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 2 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 16?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 3?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 3?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 3 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 2 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 17?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 2 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 2 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 18?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 16?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 16?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 3 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 1 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 19?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 3 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 3 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 20?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 4 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 1 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 21?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 10 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 2 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 22?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 5 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 3 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 23?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 3?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 3?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 4 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 2 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 24?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 4 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 1 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 25?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 9 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 4 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 26?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 4 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 3 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 27?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 5 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 6 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 28?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 6 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 1 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 29?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 7 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 3 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 30?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 6?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 6?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 7 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 3 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 31?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 12 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 3 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 32?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 3?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 3?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 11 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 3 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 33?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 1?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 1?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 8 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 2 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 34?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 6 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 2 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 35?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 9 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 3 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 36?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 9 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 4 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 37?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 16 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 2 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 38?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: -1?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: -1?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 3 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 2 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 39?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 12 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 5 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 40?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 17 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 5 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 41?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 16 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 5 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 42?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 14 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 3 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 43?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 21 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 4 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 44?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 13 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 4 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 45?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 14 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 2 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 46?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 16 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 4 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 47?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 13 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 4 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 48?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 12 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 5 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 49?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 13 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 4 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 50?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 13 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 4 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 51?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 14 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 6 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 52?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 12 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 4 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 53?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 21 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 6 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 54?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 16 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 3 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 55?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 14 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 4 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 56?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 13 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 4 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 57?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 14 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 5 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 58?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 10?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 10?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 5 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 4 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 59?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 29 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 6 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 60?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 36 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 4 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 61?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 29 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 12 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 62?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 31 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 3 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 63?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 32 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 4 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 64?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 3?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 3?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 17 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 7 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 65?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 34 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 5 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 66?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 23 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 3 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 67?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 40 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 12 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 68?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 21 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 8 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 69?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 1?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 1?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 29 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 3 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 70?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 3?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 3?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 15 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 6 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 71?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 42 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 9 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 72?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 38 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 7 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 73?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 52 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 5 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 74?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 3?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 3?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 13 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 4 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 75?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 41 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 11 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 76?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 3?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 3?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 25 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 9 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 77?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 50 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 5 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 78?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 85 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 16 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 79?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 67 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 18 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 80?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 92 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 17 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 81?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 71 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 12 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 82?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 85 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 10 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 83?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 80 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 6 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 84?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 77 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 15 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 85?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 96 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 8 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 86?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 75 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 29 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 87?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 76 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 18 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 88?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 92 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 12 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 89?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 1?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 1?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 79 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 10 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 90?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 34?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 34?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 13 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 8 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 91?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 120 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 23 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 92?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 40 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 6 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 93?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 88 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 9 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 94?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 3?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 3?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 20 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 8 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 95?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 97 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 28 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 96?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 107 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 46 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 97?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 121 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 20 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 98?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 108 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 29 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 99?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 99 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 6 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[90mTest Case: 100?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mExpected Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[32mActual Output: 2?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mExpected Output Calculator Execution Time: 131 milliseconds?[0m
+[Test worker] INFO org.example.WalkTest - ?[34mActual Output Calculator Execution Time: 18 milliseconds?[0m
+]]></system-err>
+</testsuite>
