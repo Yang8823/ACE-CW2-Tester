@@ -17,6 +17,8 @@ import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 import org.junit.jupiter.api.RepetitionInfo;
@@ -27,6 +29,9 @@ class WalkTest {
     private static final XYSeries expectedExecutionTimesSeries = new XYSeries("Expected Execution Times");
     private static final XYSeries actualExecutionTimesSeries = new XYSeries("Actual Execution Times");
 
+    // Add these variables as class members in the WalkTest class
+    private static long totalExpectedExecutionTime = 0;
+    private static long totalActualExecutionTime = 0;
     /**
      * In `@RepeatedTest(value = 100, name = "Run {currentRepetition} of {totalRepetitions}")`:
      * Change the 100 in `value = 100` to the number of times you want to run the test.
@@ -81,6 +86,11 @@ class WalkTest {
         String actualOutput = actualOutputCalculator.calculateActualOutput(input);
         long actualOutputEndTime = System.currentTimeMillis(); // Record end time for ActualOutputCalculator
         long actualOutputExecutionTime = actualOutputEndTime - actualOutputStartTime; // Calculate execution time for ActualOutputCalculator
+
+        // Inside the testMainMethod() after calculating execution times for expected and actual output
+        // Accumulate total execution time for each output
+        totalExpectedExecutionTime += expectedOutputExecutionTime;
+        totalActualExecutionTime += actualOutputExecutionTime;
 
         // Record execution times for ExpectedOutputCalculator and ActualOutputCalculator
         expectedExecutionTimesSeries.add(repetitionInfo.getCurrentRepetition(), expectedOutputExecutionTime);
@@ -159,7 +169,18 @@ class WalkTest {
     @AfterAll
     static void generateLineGraph() {
         saveLineGraph();
+
+        int totalTestCases = 150; // Change this to the total number of test cases
+
+        // Calculate average execution times
+        double averageExpectedTime = (double) totalExpectedExecutionTime / totalTestCases;
+        double averageActualTime = (double) totalActualExecutionTime / totalTestCases;
+
+        // Print average times
+        System.out.println("Average Expected Execution Time: " + averageExpectedTime + " milliseconds");
+        System.out.println("Average Actual Execution Time: " + averageActualTime + " milliseconds");
     }
+
 }
 
 class ExpectedOutputCalculator {
