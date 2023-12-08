@@ -7,6 +7,12 @@ import org.junit.jupiter.api.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import org.jfree.chart.ChartFactory;
+import org.jfree.chart.ChartUtils;
+import org.jfree.chart.JFreeChart;
+import org.jfree.data.xy.XYSeries;
+import org.jfree.data.xy.XYSeriesCollection;
+
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -18,14 +24,17 @@ import org.junit.jupiter.api.RepetitionInfo;
 import static org.junit.jupiter.api.Assertions.*;
 
 class WalkTest {
+    private static final XYSeries expectedExecutionTimesSeries = new XYSeries("Expected Execution Times");
+    private static final XYSeries actualExecutionTimesSeries = new XYSeries("Actual Execution Times");
 
     /**
      * In `@RepeatedTest(value = 100, name = "Run {currentRepetition} of {totalRepetitions}")`:
      * Change the 100 in `value = 100` to the number of times you want to run the test.
      * */
-    @RepeatedTest(value = 100, name = "Run {currentRepetition} of {totalRepetitions}")
+    @RepeatedTest(value = 150, name = "Run {currentRepetition} of {totalRepetitions}")
     @DisplayName("Testing the main method")
     public void testMainMethod(RepetitionInfo repetitionInfo) {
+
         Logger LOGGER = LoggerFactory.getLogger(WalkTest.class);
 
         int repetitionCount = repetitionInfo.getCurrentRepetition();
@@ -53,7 +62,7 @@ class WalkTest {
          * */
         String input = inputGenerator.generateInputWithRandomValues(repetitionCount, 6, 3, 5);
 
-//        String input = inputGenerator.generateInputWithRandomValues(0, 6, 3, 5);  // example if you don't want test case to increase during Repeated Tests
+//        String input = inputGenerator.generateInputWithRandomValues(0, 150, 150, 10);  // example if you don't want test case to increase during Repeated Tests
 //        String input = inputGenerator.generateFixedInput();   // uncomment if want use hard-code input
 
         //===================================================================================================================================================
@@ -73,6 +82,10 @@ class WalkTest {
         long actualOutputEndTime = System.currentTimeMillis(); // Record end time for ActualOutputCalculator
         long actualOutputExecutionTime = actualOutputEndTime - actualOutputStartTime; // Calculate execution time for ActualOutputCalculator
 
+        // Record execution times for ExpectedOutputCalculator and ActualOutputCalculator
+        expectedExecutionTimesSeries.add(repetitionInfo.getCurrentRepetition(), expectedOutputExecutionTime);
+        actualExecutionTimesSeries.add(repetitionInfo.getCurrentRepetition(), actualOutputExecutionTime);
+
         // Log the test case number in gray color
         LOGGER.info("\u001B[90mTest Case: {}\u001B[0m", repetitionCount);//        LOGGER.info("\u001B[34mTest Case: \n{}\u001B[0m", input); // Blue color for input
         // Check if the expected output matches the actual output
@@ -80,6 +93,12 @@ class WalkTest {
             // Log in green color if expected output matches actual output
             LOGGER.info("\u001B[32mExpected Output: {}\u001B[0m", expectedOutput); // Green color for expected output
             LOGGER.info("\u001B[32mActual Output: {}\u001B[0m", actualOutput); // Green color for actual output
+
+//            // Specify the directory where the file will be created
+//            String directoryPath = "failed_test_case/";
+//
+//            // Write input data to a file
+//            writeInputToFile(directoryPath, "failed_test_case_" + repetitionCount + ".txt", input);
         } else {
             // Log in red color if expected output doesn't match actual output
             LOGGER.info("\u001B[31mExpected Output: {}\u001B[0m", expectedOutput); // Red color for expected output
@@ -93,6 +112,8 @@ class WalkTest {
         }
         LOGGER.info("\u001B[34mExpected Output Calculator Execution Time: {} milliseconds\u001B[0m", expectedOutputExecutionTime);
         LOGGER.info("\u001B[34mActual Output Calculator Execution Time: {} milliseconds\u001B[0m", actualOutputExecutionTime);
+
+//        LOGGER.info("\u001B[90mInput: {}\u001B[0m", input);//        LOGGER.info("\u001B[34mTest Case: \n{}\u001B[0m", input); // Blue color for input
 
         // Compare against expected output
         assertEquals(expectedOutput, actualOutput);
@@ -113,6 +134,31 @@ class WalkTest {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    // Method to create and save the line graph
+    private static void saveLineGraph() {
+        XYSeriesCollection dataset = new XYSeriesCollection();
+        dataset.addSeries(expectedExecutionTimesSeries);
+        dataset.addSeries(actualExecutionTimesSeries);
+
+        JFreeChart lineChart = ChartFactory.createXYLineChart(
+                "Time Complexity for Each Test Run",
+                "Test Run",
+                "Execution Time (milliseconds)",
+                dataset
+        );
+
+        try {
+            ChartUtils.saveChartAsJPEG(new File("line_graph.jpg"), lineChart, 800, 600);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @AfterAll
+    static void generateLineGraph() {
+        saveLineGraph();
     }
 }
 
