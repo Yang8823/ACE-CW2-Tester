@@ -32,11 +32,18 @@ class WalkTest {
     // Add these variables as class members in the WalkTest class
     private static long totalExpectedExecutionTime = 0;
     private static long totalActualExecutionTime = 0;
+
+
+    //========================================================================================
+    private static final int TOTAL_TEST_CASES = 200; // Set the total number of test cases
+
+    //========================================================================================
+
     /**
-     * In `@RepeatedTest(value = 100, name = "Run {currentRepetition} of {totalRepetitions}")`:
-     * Change the 100 in `value = 100` to the number of times you want to run the test.
+     * In `@RepeatedTest(value = TOTAL_TEST_CASES, name = "Run {currentRepetition} of {totalRepetitions}")`:
+     * Change the 100 in private static final int TOTAL_TEST_CASES = 100;` to the number of times you want to run the test.
      * */
-    @RepeatedTest(value = 150, name = "Run {currentRepetition} of {totalRepetitions}")
+    @RepeatedTest(value =  TOTAL_TEST_CASES, name = "Run {currentRepetition} of {totalRepetitions}")
     @DisplayName("Testing the main method")
     public void testMainMethod(RepetitionInfo repetitionInfo) {
 
@@ -170,7 +177,7 @@ class WalkTest {
     static void generateLineGraph() {
         saveLineGraph();
 
-        int totalTestCases = 150; // Change this to the total number of test cases
+        int totalTestCases = TOTAL_TEST_CASES; // Change this to the total number of test cases
 
         // Calculate average execution times
         double averageExpectedTime = (double) totalExpectedExecutionTime / totalTestCases;
