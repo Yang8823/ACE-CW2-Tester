@@ -1,4 +1,6 @@
 # ACE-CW2-Tester
+A tester I coded for fun to test our coursework.
+
 ## How to use Tester
 ### How to add your `java.file` to test
 1. Paste your `Walk.java` or `Maze.java` into the `Tester` folder (if there is already a `Walk.java` or `Maze.java` replaced it).
